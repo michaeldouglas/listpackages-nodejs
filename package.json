@@ -1,6 +1,6 @@
 {
   "name": "listpackages",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Solution for package list and update check",
   "readmeFilename": "README.md" ,
   "keywords": [
