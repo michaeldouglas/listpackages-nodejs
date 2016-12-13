@@ -12,7 +12,7 @@
     "quais pacotes estao instalados no nodejs?"
   ],
   "scripts": {
-    "compile": "tsc",
+    "compile": "./node_modules/.bin/rollup -c",
     "prepublish": "tsc"
   },
   "author": {
