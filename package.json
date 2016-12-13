@@ -11,6 +11,9 @@
     "listpackagesnodejs",
     "quais pacotes estao instalados no nodejs?"
   ],
+  "scripts" : {
+    "build" : "npm run prepublish"
+  },
   "author": {
     "name": "Michael Douglas Barbosa Araujo",
     "email": "michaeldouglas010790@gmail.com",

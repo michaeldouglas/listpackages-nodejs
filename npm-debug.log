@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v6.8.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/atitude/Sites/listpackages-nodejs',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/atitude/.npm/listpackages/0.0.14/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/atitude/.npm correctMkdir not in flight; initializing
+10 info lifecycle listpackages@0.0.14~prepublish: listpackages@0.0.14
+11 silly lifecycle listpackages@0.0.14~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/atitude/.npm/listpackages/0.0.14/package.tgz',
+12 verbose tar pack   '/Users/atitude/Sites/listpackages-nodejs' ]
+13 verbose tarball /Users/atitude/.npm/listpackages/0.0.14/package.tgz
+14 verbose folder /Users/atitude/Sites/listpackages-nodejs
+15 verbose addLocalTarball adding from inside cache /Users/atitude/.npm/listpackages/0.0.14/package.tgz
+16 verbose correctMkdir /Users/atitude/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd listpackages@0.0.14
+18 verbose afterAdd /Users/atitude/.npm/listpackages/0.0.14/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/atitude/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/atitude/.npm/listpackages/0.0.14/package/package.json written
+21 silly publish { name: 'listpackages',
+21 silly publish   version: '0.0.14',
+21 silly publish   description: 'Solution for package list and update check',
+21 silly publish   readmeFilename: 'Readme.md',
+21 silly publish   keywords:
+21 silly publish    [ 'list',
+21 silly publish      'packages',
+21 silly publish      'comparar packages',
+21 silly publish      'listpackages',
+21 silly publish      'listpackagesnodejs',
+21 silly publish      'quais pacotes estao instalados no nodejs?' ],
+21 silly publish   scripts: { build: 'npm run prepublish' },
+21 silly publish   author:
+21 silly publish    { name: 'Michael Douglas Barbosa Araujo',
+21 silly publish      email: 'michaeldouglas010790@gmail.com' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/michaeldouglas/listpackages-nodejs.git' },
+21 silly publish   license: 'MIT',
+21 silly publish   engines: { node: '>= 0.6.x' },
+21 silly publish   files: [ 'index.js' ],
+21 silly publish   main: 'index.js',
+21 silly publish   readme: '# List Packages NodeJS\n\n\n\nThe complete solution for package listing and package \nupdate check for NodeJS inspired by [Commander.js \nCommander.js Documentation](https://github.com/tj/commander.js)\n\n[![NPM Version](http://img.shields.io/npm/v/commander.svg?style=flat)](https://www.npmjs.org/package/commander)\n[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=plastic)](https://github.com/michaeldouglas/listpackages-nodejs)\n[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=plastic)](https://gitter.im/listpackagesnodejs)',
+21 silly publish   gitHead: '7d9d87331e5ca6e3f6de341d49a194419858b23c',
+21 silly publish   bugs: { url: 'https://github.com/michaeldouglas/listpackages-nodejs/issues' },
+21 silly publish   homepage: 'https://github.com/michaeldouglas/listpackages-nodejs#readme',
+21 silly publish   _id: 'listpackages@0.0.14',
+21 silly publish   _shasum: '263a066991d798f2f77f1ec5dc0900d9abf27e5d',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name listpackages
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'listpackages',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'listpackages',
+26 silly mapToRegistry   name: 'listpackages',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/listpackages
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/atitude/.npm/listpackages/0.0.14/package.tgz
+30 verbose request uri https://registry.npmjs.org/listpackages
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 6:22:04 PM
+33 verbose request using bearer token for auth
+34 verbose request id c88e92f37fcc8031
+35 http request PUT https://registry.npmjs.org/listpackages
+36 http 403 https://registry.npmjs.org/listpackages
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '96',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Tue, 13 Dec 2016 20:22:06 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-iad2649-IAD',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1481660525.353043,VS0,VE853',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/atitude/.npm/registry.npmjs.org/listpackages on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.14." : listpackages
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid listpackages
+43 verbose cwd /Users/atitude/Sites/listpackages-nodejs
+44 error Darwin 16.0.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.8.1
+47 error npm  v3.10.8
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.14." : listpackages
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
