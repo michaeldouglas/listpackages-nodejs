@@ -8,9 +8,9 @@ var Commander_1 = require("./Commander/Commander");
 var Packages = (function (_super) {
     __extends(Packages, _super);
     function Packages() {
-        _super.apply(this, arguments);
+        return _super.apply(this, arguments) || this;
     }
-    Packages.VERSION = "0.0.1";
     return Packages;
 }(Commander_1.Commander));
+Packages.VERSION = "0.0.1";
 exports.Packages = Packages;
