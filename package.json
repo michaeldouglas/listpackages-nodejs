@@ -1,0 +1,33 @@
+{
+  "name": "listpackages",
+  "version": "0.0.1",
+  "description": "Solution for package list and update check",
+  "readmeFilename": "README.md" ,
+  "keywords": [
+    "list",
+    "packages",
+    "compra packages",
+    "listpackages",
+    "listpackagesnodejs"
+  ],
+  "author": {
+    "name": "Michael Douglas Barbosa Araujo",
+    "email": "michaeldouglas010790@gmail.com",
+    "homepage": "http://michaelaraujo.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaeldouglas/listpackages-nodejs.git"
+  },
+  "dependencies":{
+    "commander":"2.9.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js"
+}
