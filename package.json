@@ -1,6 +1,6 @@
 {
   "name": "listpackages",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Solution for package list and update check",
   "readmeFilename": "README.md" ,
   "keywords": [
@@ -12,7 +12,6 @@
     "quais pacotes estao instalados no nodejs?"
   ],
   "scripts": {
-    "compile": "./node_modules/.bin/rollup -c",
     "prepublish": "tsc"
   },
   "author": {
