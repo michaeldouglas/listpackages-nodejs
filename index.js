@@ -2,4 +2,4 @@
  * Module dependencies.
  */
 
-module.exports = require(__dirname + '/lib/pagseguro');
+module.exports = require(__dirname + '/lib/listpackages');
