@@ -12,4 +12,4 @@ class Packages extends Commander{
 //     .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
 //     .parse(process.argv);
 
-//module.exports = Packages;
+export { Packages };

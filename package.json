@@ -11,6 +11,9 @@
     "listpackagesnodejs",
     "quais pacotes estao instalados no nodejs?"
   ],
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "author": {
     "name": "Michael Douglas Barbosa Araujo",
     "email": "michaeldouglas010790@gmail.com",
