@@ -3,5 +3,4 @@ node_modules
 *.sock
 .idea
 dist/
-build/
 npm-debug.log
