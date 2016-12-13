@@ -6,9 +6,10 @@
   "keywords": [
     "list",
     "packages",
-    "compra packages",
+    "comparar packages",
     "listpackages",
-    "listpackagesnodejs"
+    "listpackagesnodejs",
+    "quais pacotes estao instalados no nodejs?"
   ],
   "author": {
     "name": "Michael Douglas Barbosa Araujo",
