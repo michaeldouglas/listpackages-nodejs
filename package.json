@@ -27,5 +27,8 @@
   "engines": {
     "node": ">= 0.6.x"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
