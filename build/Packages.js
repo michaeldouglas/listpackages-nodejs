@@ -8,8 +8,9 @@ var Commander_1 = require("./Commander/Commander");
 var Packages = (function (_super) {
     __extends(Packages, _super);
     function Packages() {
-        _super.apply(this, arguments);
-        this.VERSION = "0.0.1";
+        var _this = _super.apply(this, arguments) || this;
+        _this.VERSION = "0.0.1";
+        return _this;
     }
     Packages.prototype.setCommander = function (exec) {
         this.exec = exec;
