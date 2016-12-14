@@ -1,8 +1,13 @@
-import { StringValidator } from "./Validation";
+import { Commands } from "./Commands";
 
-class Commander implements StringValidator {
-    isAcceptable(s: string) {
-        return s.length === 5;
+class Commander implements Commands
+{
+    execCommand(type)
+    {
+        if(type.listpackages){
+            console.log('  - %s peppers', type.listpackages);
+        }
     }
 }
+
 export { Commander };

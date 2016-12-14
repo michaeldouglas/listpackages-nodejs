@@ -2,8 +2,10 @@
 var Commander = (function () {
     function Commander() {
     }
-    Commander.prototype.isAcceptable = function (s) {
-        return s.length === 5;
+    Commander.prototype.execCommand = function (type) {
+        if (type.listpackages) {
+            console.log('  - %s peppers', type.listpackages);
+        }
     };
     return Commander;
 }());
